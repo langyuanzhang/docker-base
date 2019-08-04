@@ -47,7 +47,7 @@ docker run -d nginx
 ```
 
 
-##### 在运行容器中运行命令
+##### 进入运行容器中执行命令
 
 ```
 docker exec -it 7ab811911057(容器id) bash
