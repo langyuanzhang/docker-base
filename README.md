@@ -5,7 +5,7 @@ docker的基础命令
 ##### docker run流程：
 客户端向docker daemon发送一条pull命令，docker daemon会先在本机查找镜像，如果没找到则去远程仓库里找，然后把镜像下载到本地，下载回来后通过一定的方式将镜像运行起来，变成docker容器。
 
-![流程](./liucheng.jpg)搜索下载相关资源
+![流程](./imgs/liucheng.jpg)搜索下载相关资源
 
 
 ###### win10系统去docker官网下载，一路next安装即可
